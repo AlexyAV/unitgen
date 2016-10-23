@@ -1,6 +1,9 @@
 # Unitgen
-The generator of the basic structure for the unit tests. The generated classes are based on tests [phpunit](https://phpunit.de) version >= 5.*.
+[![Build Status](https://travis-ci.org/AlexyAV/unitgen.svg?branch=master)](https://travis-ci.org/AlexyAV/unitgen)
+[![Code Climate](https://codeclimate.com/github/AlexyAV/unitgen/badges/gpa.svg)](https://codeclimate.com/github/AlexyAV/unitgen)
+[![Test Coverage](https://codeclimate.com/github/AlexyAV/unitgen/badges/coverage.svg)](https://codeclimate.com/github/AlexyAV/unitgen/coverage)
 
+The generator of the basic structure for the unit tests. The generated classes are based on tests [phpunit](https://phpunit.de) version >= 5.*.
 Unitgen is is a command line tool that recursively(optional) analyze the specified path and generates unit test files. The directory structure is reproduced according to the original structure.
 
 ## Installation
