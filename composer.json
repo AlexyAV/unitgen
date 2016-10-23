@@ -1,0 +1,35 @@
+{
+  "name": "unitgen/unitgen",
+  "description": "Unitgen generates a basic framework for writing unit tests.",
+  "keywords": ["unit-test", "generator", "skeleton"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AlexyAV",
+      "email": "avpretty@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "symfony/console": "^3.1"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master",
+    "phpunit/phpunit": "5.5.*",
+    "mikey179/vfsStream": "~1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unitgen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Unitgen\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
