@@ -24,7 +24,6 @@ class ControllerTest extends TestCase
         file_put_contents(
             __DIR__ . '/controllerTestSourcePath/config.php',
             "<?php
-
 return [
     'source'        => [
         'path'    => [
