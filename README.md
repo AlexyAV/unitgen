@@ -37,7 +37,9 @@ class SourceClass
 </pre>
 Will be generated next structure within "SourceClassTest":
 <pre lang="php">
-class SourceClassTest
+use PHPUnit\Framework\TestCase;
+
+class SourceClassTest extends TestCase
 {
     private $sourceClass;
     
